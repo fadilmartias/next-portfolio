@@ -1,21 +1,25 @@
 import Navbar from '../components/Navbar'
 import Head from 'next/head';
 
-const About = () => {
+const Contact = () => {
     return (
       <>
       <Head>
-        <title>About</title>
+        <title>Contact</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
        <Navbar />
        <section className="hero">
           <div className="container">
             <div className="text-wrapper w-full">
-              <h1 className="title">About</h1>
+              <h1 className="title">Contact</h1>
               <p className="description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab adipisci quas aspernatur vero quisquam eum earum ipsa amet sed! Earum quaerat necessitatibus inventore accusantium praesentium quis, iure vel suscipit labore!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
+              <ul className="contact-links">
+                <li className="contact-item">Email: fadilmartias26@gmail.com</li>
+                <li className="contact-item">Phone: +6282152082404</li>
+              </ul>
             </div>
           </div>
        </section>
@@ -23,4 +27,4 @@ const About = () => {
     )
   }
   
-  export default About;
+  export default Contact;
